@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(38, 0, 255);
+    padding: 15px;
+    min-height: 100vh;
+    display: column;
+
+
+}
+
+
+h3 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+    color: aliceblue;
+}
+
+.box {
+    margin-top: 100px;
+    display: flex;
+    padding-left: 20%;
+    justify-content: center;
+    width: 930px;
+
+
+}
+
+.form-box {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(40px);
+    padding: 30px 40px;
+    width: 55%;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+form .input-group {
+    margin-bottom: 15px;
+}
+
+form .input-group label {
+    color: #3d3d3d;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form .input-group input {
+    width: 100%;
+    height: 47px;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    padding: 15px;
+    font-size: 15px;
+    color: #616161;
+    transition: all 0.4 ease;
+}
+
+form .input-group input:focus {
+    border-color: black;
+}
+
+.botao input {
+    width: 100%;
+    height: 47px;
+    background: rgba(43, 8, 199, 0.5);
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botao input:hover {
+    background: rgb(255, 254, 254);
+    color: black;
+    transition: 0.5s;
+}
